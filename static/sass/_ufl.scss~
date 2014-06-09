@@ -16,12 +16,12 @@ $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
-$main-bg: #822537;
+$main-bg: #fc6221; //#822537;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
 //Secondary Color Variables
-$secondary: #b5a4b7;
+$secondary: #bec3d3; //#b5a4b7;
 $secondary-50: lighten($secondary, 9%);
 $secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
 
@@ -37,6 +37,11 @@ $white: $gray-1;
 $black: #2e2e2e;
 $black-80: #585858;
 
+//-------- UF colors --------
+$blue: #0021a5;
+$dark-blue: #003490;
+$orange: #fd4c02;
+$lighter-orange: #fc7137
 
 
 //-----------------
@@ -81,18 +86,18 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-color;
-$link-color-d1: $dark-color;
-$link-hover: $light-color;
+$link-color: $dark-blue; //$dark-color;
+$link-color-d1: $dark-blue; //$dark-color;
+$link-hover: $orange; //$light-color;
 $site-status-color: $bg-color;
 
-$header-graphic-super-color: $dark-color;
+$header-graphic-super-color: $orange; //$dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-color;
-$header-link-hover: $light-color;
+$header-link-color: $dark-blue; //$dark-color;
+$header-link-hover: $orange; //$light-color;
 
-$button-color: $main-color;
+$button-color: $blue; //$main-color;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -103,16 +108,16 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $main-color;
+$action-primary-bg: $lighter-orange; //$main-color;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-color;
+$action-primary-focused-bg: $orange; //$dark-color;
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-color;
+$action-primary-active-bg: $orange; //$dark-color;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $gray-2;
@@ -185,12 +190,12 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/default/images/sunrise.jpg');
+$homepage-bg-image: url('../themes/ufl/images/AE_CentralCampus06_KB.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/default/images/edx.png';
+$video-thumb-url: '../themes/ufl/images/uf_logo.png';
 
 //-----------------
 //  Mixin Styles
