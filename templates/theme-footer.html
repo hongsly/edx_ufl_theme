@@ -4,6 +4,7 @@
 <%! from datetime import datetime %>
 <%! from pytz import UTC %>
 
+<!--
 <div class="wrapper-footer">
   <footer>
     <div class="colophon">
@@ -24,6 +25,7 @@
     </div>
   </footer>
 </div>
+-->
 
 <div id="su-footer">
   <div class="su-container">
@@ -34,16 +36,29 @@
         </a>
       </div>
       <div id="su-footer-text" class="span10">
+	<!-- Links at the foot of the page -->
         <ul>
           <li class="home"><a href="http://www.ufl.edu">UF Home</a></li>
           <li class="maps alt"><a href="http://campusmap.ufl.edu/">Maps &amp; Directions</a></li>
-	  <li class="ask-uf"><a href="http://www.questions.ufl.edu/">Ask UF</a></li>
+
+          <li><a href="${reverse('tos')}">Creative Commons</a></li>
+          <li><a href="ufohost.edx@gmail.com">Contact</a></li>
+
+	  <!--<li class="ask-uf"><a href="http://www.questions.ufl.edu/">Ask UF</a></li>
           <li class="terms alt"><a href="http://www.ufl.edu/about-this-site/">Terms of Use</a></li>
-          <li class="copyright"><a href="">Copyright Complaints</a></li>
+	  <li class="copyright"><a href="">Copyright Complaints</a></li>-->
         </ul>
         <div class="clear"></div>
-        <p class="copyright vcard">&copy; <span class="fn org">University of Florida</span>, <span class="adr"> <span class="locality">Gainesville</span>, <span class="region">Florida</span> <span class="postal-code">32608</span> </span></p>
+	<p class="copyright vcard">&copy; <span class="fn org">University of Florida</span>, <span class="adr"> <span class="locality">Gainesville</span>, <span class="region">Florida</span> <span class="postal-code">32608</span> </span>
+	<br>
+	<span> &nbsp; &nbsp; &nbsp; This webpage is a service of the <a href="http://www.cise.ufl.edu">UF CISE department</a> </span>
+	</p>
       </div>
+
+      <div class="references" style="padding: 30px 0px 0px;">
+	    <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+      </div>
+      
       <div style="clear: both;"></div>
     </div>
   </div>
