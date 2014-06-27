@@ -4,3 +4,5 @@
 *.css~
 templates/static_templates/theme-tos - Copy.html
 *.swp
+templates/static_templates/theme-about - Copy.html
+templates/static_templates/theme-faq - Copy.html
